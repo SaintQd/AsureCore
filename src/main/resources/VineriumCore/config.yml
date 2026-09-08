@@ -390,10 +390,6 @@ WorldGuardFlags:
     CheckTask: 40
   VinMessage:
     Delimiter: '<reset> | '
-ServerConnector:
-  Enabled: true
-  ServerName: 'Vinerium'
-  Command: 'cmi server {1} %player_name%'
 Guide:
   Enabled: true
   ShowMessage: true
