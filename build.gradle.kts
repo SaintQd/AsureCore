@@ -24,16 +24,16 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:26.2+")
     compileOnly("me.clip:placeholderapi:2.11.6") // repo.extendedclip.com
-    compileOnly(files("../VineriumLib/build/libs/VineriumLib-1.0-SNAPSHOT.jar"))
+    compileOnly(files("../AsureLib/build/libs/AsureLib-1.0-SNAPSHOT.jar"))
     compileOnly("com.github.Zrips:CMI-API:9.7.14.3")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7.1")
-    compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.14-SNAPSHOT")
+    compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.19-SNAPSHOT")
     compileOnly("com.gitlab.ruany:LiteBansAPI:0.6.1")
     compileOnly("net.luckperms:api:5.5")
     compileOnly("com.nexomc:nexo:1.17.0")
-    compileOnly("io.lumine:Mythic-Dist:5.12.2-SNAPSHOT")
+    compileOnly("io.lumine:Mythic-Dist:5.+")
     compileOnly("com.hibiscusmc:HMCCosmetics:2.8.3")
     compileOnly("me.lojosho:HibiscusCommons:0.8.3-a89bcec3")
 
@@ -60,8 +60,8 @@ tasks.withType<Jar> {
 
 }
 java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(21))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(25))
 }
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(25)
 }

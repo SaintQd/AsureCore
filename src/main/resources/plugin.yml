@@ -1,9 +1,9 @@
-name: VineriumCore
+name: AsureCore
 version: 1.0
 author: SaintQd
-main: org.saintqd.vineriumcore.VineriumCore
-api-version: 1.21.8
-depend: [VineriumLib]
+main: org.saintqd.asurecore.AsureCore
+api-version: 26.2
+depend: [AsureLib]
 softdepend:
   - PlaceholderAPI
   - CMI
@@ -14,6 +14,6 @@ softdepend:
   - MythicMobs
   - HMCCosmetics
 permissions:
-  vineriumcore.admin:
+  asurecore.admin:
     description: Access to admin commands.
     default: op

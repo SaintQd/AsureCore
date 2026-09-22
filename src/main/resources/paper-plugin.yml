@@ -1,12 +1,12 @@
-name: VineriumCore
+name: AsureCore
 version: '1.0'
 author: SaintQd
-main: org.saintqd.vineriumcore.VineriumCore
-description: VineriumCore Plugin
-api-version: '1.21.8'
+main: org.saintqd.asurecore.AsureCore
+description: AsureCore Plugin
+api-version: '26.2'
 dependencies:
   server:
-    VineriumLib:
+    AsureLib:
       load: BEFORE
       required: true
     PlaceholderAPI:

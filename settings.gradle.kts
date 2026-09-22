@@ -1,2 +1,2 @@
-rootProject.name = "VineriumCore"
+rootProject.name = "AsureCore"
 
