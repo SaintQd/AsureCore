@@ -26,7 +26,7 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:26.2+")
     compileOnly("me.clip:placeholderapi:2.11.6") // repo.extendedclip.com
-    compileOnly(files("../AsureLib/build/libs/AsureLib-1.0-SNAPSHOT.jar"))
+    compileOnly("com.github.SaintQd:AsureLib:v1.0")
     compileOnly("com.github.Zrips:CMI-API:9.7.14.3")
     compileOnly("com.github.MilkBowl:VaultAPI:1.7.1")
     compileOnly("com.sk89q.worldguard:worldguard-bukkit:7.0.19-SNAPSHOT")
